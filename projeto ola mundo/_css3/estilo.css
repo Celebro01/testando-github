@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+h1.titulo-principal {font-family: Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    text-align: center;
+    text-shadow: 5px 5px 8px red; }
+
+h2 {font-family: cursive;
+    font-size:30pt;}
+
+p1 {font-size:20pt;
+    font-family: monospace;
+    text-shadow: 8px 8px 8px rgb(0, 1, 2);}
+body{background-color: black;
+    color: white;
+    text-align: justify;}
+
+figure.armazem-legenda {
+position: relative;
+border: 7px solid white;
+box-shadow: 1px 1px 4px red;
+
+
+}
+figure.armazem-legenda img {
+
+    width: 100%;
+    heigh: 100%;
+
+}
+figure.armazem-legenda figcaption {
+
+position: absolute;
+    top: 0px;
+opacity: 0;
+width: 100%;
+    heigh: 100%;
+padding: 10px;
+    transition: opacity 1s;
+box-sizing:border-box;
+
+}
+
+figure.armazem-legenda:hover figcaption {
+
+    opacity: 1;
+}
+nav#menu {
+display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 800px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #b50217;
+    padding: 10px;
+    margin: 2px;
+
+}
+nav#menu h1 {
+    display: none;
+}
